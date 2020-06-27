@@ -1,0 +1,14 @@
+  <div class="div">
+        <center>
+        <header class="menu">
+            <nav>
+                <ul>
+                    <li><a href="/Inicio"><span class=""><i class="icon icon-home3"></i></span>INICIO</a></li>
+                    <li><a href="/#caja_final"><span class=""><i class="icon icon-user-tie"></i></span>QUIENES SOMOS</a></li>
+                    <li><a href=""><span class=""><i class="icon icon-mail4"></i></span>CONTACTENOS</a></li>
+                    <li><a href=""><span class=""><i class="icon icon-twitter"></i></span>TWITTER</a></li>
+                    <li><a href=""><span class=""><i class="icon icon-facebook2"></i></span>FACEBOOK</a></li>
+                </ul>
+            </nav>
+        </header>
+    </center>"

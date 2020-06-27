@@ -1,0 +1,103 @@
+
+.caja_principal{
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 13%;
+    margin-right: 7%;
+    margin-top: 12px;
+    max-width: 1800px;
+    max-height: 700px;
+    box-shadow: 11px 10px 12px 6px rgba(0,0,0,0.75);
+}
+.sub_cajas{
+    background-color: rgba(196, 196, 196, 0.199);
+    border-radius: 25px 0px 25px 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-shadow: 11px 10px 12px 6px rgba(0,0,0,0.75);
+    margin-bottom: 30px;
+    transform: scale(1,1);
+    transition-timing-function:ease-out;
+    transition-duration:250ms;
+    display: inline-block;
+}
+.sub_cajas:hover{
+    transform: scale(1.2,1.2);
+    transition-timing-function:ease-out;
+    transition-duration:100ms;
+}
+
+/*menu*/
+.menu{
+    width: 80%;
+    margin-left: 13%;
+    margin-right:7%;
+    position: fixed;
+}
+/*fin_menu*/
+.pie_de_pagina{
+    background-image: url("./img/covid-19.jfif");
+    background-color: rgb(182, 7, 7);
+    color: black;
+    font-size: 150px;
+    width: 70%;
+    max-height: 50%;
+    z-index: 1003;
+    margin-left: 15%;
+    margin-right: 15%;
+    top: 25%;
+    position: fixed;
+    display: block;
+}
+.ocultar{
+    height:50px ;
+    width:50px ;
+    float: right;
+    background-color: rgb(202, 16, 72);
+    border: 1px solid rgba(138, 2, 2, 0.664);
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ref{
+    color:rgb(165, 42, 42) ;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 650px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+.img_2{
+    width: 100%;
+    height:150px;
+
+}
+
+.caja_final{
+    max-width: 50%;
+    overflow: hidden;
+    height: 400px;
+    max-height: 600px;
+    background-color: rgba(160, 158, 158, 0.116);
+    margin-top:50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float:right;
+    box-shadow: 11px 10px 12px 6px rgba(0,0,0,0.75);
+    text-align: center;
+    padding-left:50px;
+    padding-right: 50px;
+    font-size: 17px; 
+}
+
+#caja_c{
+
+    box-shadow: 11px 10px 12px 6px rgba(0,0,0,0.75);
+}
+a > h1{
+    color:  rgb(182, 7, 7);
+}
